@@ -213,9 +213,53 @@ nav ul li a:hover{color: #ff0000;}
 .wrapper ul, .wrapper ul li, .wrapper ul li img {width: 100%;}
 
 
-.marketing ul {
+.slider {
   display: flex;
   overflow: hidden;
   list-style: none;
+  padding-top: 30px;
+}
+
+.slider :not(:first-child){display: none;}
+
+.pagging { 
+  display: flex;
+  justify-content: center;
+}
+
+.pagging ul {
+  display: flex;
+ align-items: center;
+ list-style: none;
+ width: 15%;
+}
+
+.pagging ul a{ 
+  text-decoration: none;
+  border: 2px solid black;
+}
+.left-arrow{width: 100%;}
+
+.right-arrow{
+  width: 100%;
+  text-align: right;
+}
+
+.right-arrow a{ text-decoration: none;}
+.left-arrow a{ text-decoration: none;}
+
+.right-arrow a::before{
+  content: "\f0a9";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  font-size: 2em;
+
+}
+
+.left-arrow a::before{
+  content: "\f0a8";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  font-size: 2em;
 }
 /* marketing section style ends */
