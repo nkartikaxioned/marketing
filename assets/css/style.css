@@ -163,9 +163,9 @@ sub { bottom: -.25em; }
   width: 97.66%;
   margin: 0 auto;
 }
-.caps-firstletter::first-line{ text-transform: capitalize; }
+.caps-first::first-letter { text-transform: capitalize; }
 .caps{ text-transform: capitalize; }
-.color-grey{ background: #c7c6c6; }
+.color-grey{ background: #F1F1F1; }
 .font-color-black{ color: #000; }
 .font-color-white{ color: #fff; }
 .font-color-grey{ color: #676767; }
