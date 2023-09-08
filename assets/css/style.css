@@ -157,13 +157,44 @@ sub { bottom: -.25em; }
 }
 
 /* common class style start */
+
 .wrapper{
   max-width: 1334px;
   width: 97.66%;
   margin: 0 auto;
 }
+.caps-firstletter::first-line{ text-transform: capitalize; }
+.caps{ text-transform: capitalize; }
+.color-grey{ background: #c7c6c6; }
+.font-color-black{ color: #000; }
+.font-color-white{ color: #fff; }
+.font-color-grey{ color: #676767; }
+
+.font-size-color{ 
+  font-size: 21px;
+  color: #000;
+
+}
 /* common class style end */
 
 /* header style start */
+
+header ,header .wrapper{ 
+  max-width: 1366px;
+  width: 100%;
+}
+
+header ul {  
+  width: 100%;
+  display: flex; 
+  list-style: none;
+  justify-content: space-evenly;
+}
+nav { padding: 15px; }
+
+nav ul li a{ 
+  text-decoration: none; 
+  padding: 10px;
+}
 
 /* header style end */
