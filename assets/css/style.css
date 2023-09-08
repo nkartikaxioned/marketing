@@ -206,12 +206,14 @@ nav ul li a:hover{color: #ff0000;}
   text-decoration: none;
 }
 
-.marketing h1 {padding: 50px 0px 35px;}
-.marketing div span { font-size: 18px;}
-.wrapper div {padding-bottom: 30px;}
+.wrapper h1 {padding: 50px 0px 35px;}
+.marketing span { font-size: 18px;}
 
-.slider,ul ,li ,img {width: 100%;}
-.slider ul {
+
+.wrapper ul, .wrapper ul li, .wrapper ul li img {width: 100%;}
+
+
+.marketing ul {
   display: flex;
   overflow: hidden;
   list-style: none;
