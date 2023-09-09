@@ -303,7 +303,11 @@ sub {
 
 .header-size {
   font-size: 27px;
-  padding: 60px 0px 30px;
+  padding: 60px 0px 20px;
+}
+
+.font-bold {
+  font-weight: bolder;
 }
 
 /* common class style end */
@@ -468,6 +472,43 @@ nav ul li a:hover {
 
 /* offer section style starts */
 /* pricing plans section style start */
-.pricing-plans h2 {}
+.structure {
+  display: flex;
+}
+
+.pricing-plans {
+  text-align: center;
+}
+
+.pricing-plans ul {
+  list-style: none;
+  padding: 60px 0 0;
+  width: 100%;
+}
+
+.structure ul :not(:first-child, :last-child) {
+  padding: 10px 0 10px;
+}
+
+.structure ul li:last-child {
+  padding: 25px 0 25px;
+}
+
+.pricing-plans ul li {
+  border: 1px solid #616161;
+  width: 95%;
+}
+
+.pricing-plans h4 {
+  font-size: 26px;
+  padding: 30px 0 30px;
+}
+
+.structure ul li a {
+  text-decoration: none;
+  border: 1px solid #4CAF50;
+  background: #4CAF50;
+  padding: 10px;
+}
 
 /* pricing plans section style end */
