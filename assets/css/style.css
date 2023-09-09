@@ -487,7 +487,7 @@ nav ul li a:hover {
 }
 
 .structure ul :not(:first-child, :last-child) {
-  padding: 10px 0 10px;
+  padding: 15px 0 15px;
 }
 
 .structure ul li:last-child {
@@ -509,6 +509,15 @@ nav ul li a:hover {
   border: 1px solid #4CAF50;
   background: #4CAF50;
   padding: 10px;
+}
+
+.padding {
+  padding: 10px 0 10px;
+
+}
+
+.padding span {
+  font-size: 23px;
 }
 
 /* pricing plans section style end */
