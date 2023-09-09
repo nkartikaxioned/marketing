@@ -289,6 +289,10 @@ sub {
 
 }
 
+.color-darkgrey {
+  background: #616161;
+}
+
 /* common class style end */
 
 /* header style start */
@@ -392,17 +396,19 @@ nav ul li a:hover {
   text-decoration: none;
   text-indent: -9999px;
   float: right;
+  padding: 5px;
 }
 
 .left-arrow a {
   text-decoration: none;
+  float: left;
+  padding: 5px;
 }
 
 .right-arrow a::before {
   content: "\f0a9";
   font-family: "fontAwesome";
   font-size: 2em;
-
 }
 
 .left-arrow a::before {
