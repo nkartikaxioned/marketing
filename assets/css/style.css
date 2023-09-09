@@ -358,9 +358,15 @@ nav ul li a:hover {
 }
 
 
-.wrapper ul,
-.wrapper ul li,
-.wrapper ul li img {
+.marketing .wrapper ul {
+  width: 100%;
+}
+
+.marketing .wrapper ul li {
+  width: 100%;
+}
+
+.marketing .wrapper ul li img {
   width: 100%;
 }
 
@@ -585,8 +591,9 @@ form div label {
 }
 
 form div input {
-  width: 100%;
+  width: 99%;
   line-height: 2em;
+  border: 1.5px solid #BBBBBB;
 }
 
 form div:last-child {
@@ -596,6 +603,9 @@ form div:last-child {
 form div a {
   text-decoration: none;
   padding: 2px 50px;
+  display: block;
+  width: 89%;
+  line-height: 2em;
 }
 
 .contact-us h2 {
@@ -603,3 +613,82 @@ form div a {
 }
 
 /* contact us section style end */
+/* footer section style start */
+footer {
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+footer .wrapper {
+  width: 97%;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer div a[title|="To the top"]::before {
+  content: "\f062";
+  font-family: "fontAwesome";
+
+}
+
+footer div a[title|="Facebook"]::before {
+  content: "\f082";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer div a[title|="Instagram"]::before {
+  content: "\f16d";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer div a[title|="Snapchat"]::before {
+  content: "\f2ad";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer div a[title|="Pininterest"]::before {
+  content: "\f0d2";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer div a[title|="Twitter"]::before {
+  content: "\f099";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer div a[title|="Linkedin"]::before {
+  content: "\f08c";
+  font-family: "fontAwesome";
+  text-indent: 0;
+  float: left;
+}
+
+footer ul a {
+  text-indent: -9999px;
+  float: right;
+}
+
+footer ul li {
+  width: 2%;
+}
+
+/* fo0ter section style end */
