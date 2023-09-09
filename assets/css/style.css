@@ -293,6 +293,10 @@ sub {
   background: #616161;
 }
 
+.color-medium-grey {
+  background: #BBBBBB;
+}
+
 /* common class style end */
 
 /* header style start */
@@ -419,3 +423,39 @@ nav ul li a:hover {
 }
 
 /* marketing section style ends */
+
+/* offer section style starts */
+.offer .wrapper {
+  width: 97%;
+}
+
+.offer {
+  text-align: center;
+}
+
+.offer ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.offer ul li {
+  width: 25%;
+  text-align: left;
+  padding: 10px;
+}
+
+.offer li h3 {
+  padding: 20px 0;
+}
+
+.offer h2 {
+  border-bottom: 3px solid;
+  position: relative;
+  padding: 40px 0px 20px;
+}
+
+
+/* offer section style starts */
