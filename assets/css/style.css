@@ -301,6 +301,11 @@ sub {
   background: #000;
 }
 
+.header-size {
+  font-size: 27px;
+  padding: 60px 0px 30px;
+}
+
 /* common class style end */
 
 /* header style start */
@@ -458,10 +463,11 @@ nav ul li a:hover {
 
 .offer h2 {
   border-bottom: 3px solid;
-  position: relative;
-  padding: 60px 0px 30px;
-  font-size: 27px;
 }
 
 
 /* offer section style starts */
+/* pricing plans section style start */
+.pricing-plans h2 {}
+
+/* pricing plans section style end */
