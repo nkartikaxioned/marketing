@@ -448,17 +448,19 @@ nav ul li a:hover {
 .offer ul li {
   width: 25%;
   text-align: left;
-  padding: 10px;
+  padding: 26px 15px 30px;
 }
 
 .offer li h3 {
-  padding: 20px 0;
+  padding: 15px 0;
+  font-size: 23px;
 }
 
 .offer h2 {
   border-bottom: 3px solid;
   position: relative;
-  padding: 40px 0px 20px;
+  padding: 60px 0px 30px;
+  font-size: 27px;
 }
 
 
