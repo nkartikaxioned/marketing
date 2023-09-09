@@ -297,6 +297,10 @@ sub {
   background: #BBBBBB;
 }
 
+.color-black {
+  background: #000;
+}
+
 /* common class style end */
 
 /* header style start */
