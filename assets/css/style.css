@@ -472,8 +472,14 @@ nav ul li a:hover {
 
 /* offer section style starts */
 /* pricing plans section style start */
+.pricing-plans .wrapper {
+  width: 97%;
+}
+
 .structure {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .pricing-plans {
@@ -483,7 +489,7 @@ nav ul li a:hover {
 .pricing-plans ul {
   list-style: none;
   padding: 60px 0 0;
-  width: 100%;
+  width: 32%;
 }
 
 .structure ul :not(:first-child, :last-child) {
@@ -496,7 +502,7 @@ nav ul li a:hover {
 
 .pricing-plans ul li {
   border: 1px solid #616161;
-  width: 95%;
+  width: 100%;
 }
 
 .pricing-plans h4 {
@@ -521,3 +527,20 @@ nav ul li a:hover {
 }
 
 /* pricing plans section style end */
+/* about us section style starts */
+.about-us .wrapper {
+  width: 97%;
+}
+
+.about-us ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about-us ul li {
+  width: 32%;
+}
+
+/* about us section style end */
