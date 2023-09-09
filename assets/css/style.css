@@ -528,6 +528,10 @@ nav ul li a:hover {
 
 /* pricing plans section style end */
 /* about us section style starts */
+.about-us {
+  text-align: center;
+}
+
 .about-us .wrapper {
   width: 97%;
 }
@@ -541,6 +545,31 @@ nav ul li a:hover {
 
 .about-us ul li {
   width: 32%;
+  box-shadow: 0 4px 9px #616161;
+}
+
+.about-us h6 {
+  font-size: 23px;
+  padding: 0 0 15px;
+}
+
+.about-us div ul {
+  text-align: left;
+}
+
+.about-us div p {
+  padding: 15px 0 15px;
+}
+
+.about-us div a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.about-us .wrapper div {
+  padding: 15px;
 }
 
 /* about us section style end */
