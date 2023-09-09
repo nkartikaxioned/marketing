@@ -62,13 +62,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -78,17 +152,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -104,7 +191,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   border: 0;
@@ -119,9 +208,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
+sup {
+  top: -.7em;
+}
 
-sub { bottom: -.25em; }
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================================================================== */
@@ -132,7 +225,9 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
+.cf:after {
+  clear: both;
+}
 
 /* .cf { *zoom: 1; } */
 
@@ -158,59 +253,95 @@ sub { bottom: -.25em; }
 
 /* common class style start */
 
-.wrapper{
+.wrapper {
   max-width: 1334px;
   width: 97.66%;
   margin: 0 auto;
 }
-.caps-first { text-transform: capitalize; }
-.caps{ text-transform: uppercase; }
-.color-grey{ background: #F1F1F1; }
-.font-color-black{ color: #000; }
-.font-color-white{ color: #fff; }
-.font-color-grey{ color: #676767; }
 
-.font-size-color{ 
+.caps-first {
+  text-transform: capitalize;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.color-grey {
+  background: #F1F1F1;
+}
+
+.font-color-black {
+  color: #000;
+}
+
+.font-color-white {
+  color: #fff;
+}
+
+.font-color-grey {
+  color: #676767;
+}
+
+.font-size-color {
   font-size: 21px;
   color: #000;
 
 }
+
 /* common class style end */
 
 /* header style start */
 
-header ,header .wrapper{ 
+header,
+header .wrapper {
   max-width: 1366px;
   width: 100%;
   margin: 0 auto;
 }
 
-header ul {  
+header ul {
   width: 100%;
-  display: flex; 
+  display: flex;
   list-style: none;
   justify-content: space-evenly;
 }
-nav { padding: 15px; }
 
-nav ul li a{ 
-  text-decoration: none; 
+nav {
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
   font-size: 20px;
   padding: 10px;
 }
-nav ul li a:hover{color: #ff0000;}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
 /* header style end */
 /* marketing section style starts */
-.marketing h1 a { 
-  font-size: 42px; 
+.marketing h1 a {
+  font-size: 42px;
   text-decoration: none;
 }
 
-.wrapper h1 {padding: 50px 0px 35px;}
-.marketing span { font-size: 18px;}
+.wrapper h1 {
+  padding: 50px 0px 35px;
+}
+
+.marketing span {
+  font-size: 18px;
+}
 
 
-.wrapper ul, .wrapper ul li, .wrapper ul li img {width: 100%;}
+.wrapper ul,
+.wrapper ul li,
+.wrapper ul li img {
+  width: 100%;
+}
 
 
 .slider {
@@ -220,46 +351,65 @@ nav ul li a:hover{color: #ff0000;}
   padding-top: 30px;
 }
 
-.slider :not(:first-child){display: none;}
+.slider :not(:first-child) {
+  display: none;
+}
 
-.pagging { 
+.pagging {
   display: flex;
   justify-content: center;
 }
 
 .pagging ul {
   display: flex;
- align-items: center;
- list-style: none;
- width: 15%;
+  align-items: center;
+  list-style: none;
+  width: 15%;
 }
 
-.pagging ul a{ 
+.pagging ul a {
   text-decoration: none;
+  padding: 0px 8px;
   border: 2px solid black;
+  text-indent: -9999px;
+  float: left;
 }
-.left-arrow{width: 100%;}
 
-.right-arrow{
+.pagging ul a:hover {
+  background-color: #fff;
+}
+
+.left-arrow {
+  width: 100%;
+}
+
+.right-arrow {
   width: 100%;
   text-align: right;
 }
 
-.right-arrow a{ text-decoration: none;}
-.left-arrow a{ text-decoration: none;}
+.right-arrow a {
+  text-decoration: none;
+  text-indent: -9999px;
+  float: right;
+}
 
-.right-arrow a::before{
+.left-arrow a {
+  text-decoration: none;
+}
+
+.right-arrow a::before {
   content: "\f0a9";
   font-family: "fontAwesome";
-  text-indent: 0;
   font-size: 2em;
 
 }
 
-.left-arrow a::before{
+.left-arrow a::before {
   content: "\f0a8";
   font-family: "fontAwesome";
   text-indent: 0;
   font-size: 2em;
 }
+
 /* marketing section style ends */
