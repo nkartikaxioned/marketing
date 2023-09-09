@@ -541,6 +541,8 @@ nav ul li a:hover {
   list-style: none;
   width: 100%;
   justify-content: space-between;
+  text-align: left;
+  padding: 20px 0 0;
 }
 
 .about-us ul li {
@@ -551,10 +553,6 @@ nav ul li a:hover {
 .about-us h6 {
   font-size: 23px;
   padding: 0 0 15px;
-}
-
-.about-us div ul {
-  text-align: left;
 }
 
 .about-us div p {
@@ -573,3 +571,35 @@ nav ul li a:hover {
 }
 
 /* about us section style end */
+/* contact us section style start */
+.contact-us .wrapper {
+  width: 97%;
+}
+
+form div {
+  padding: 0 0 15px;
+}
+
+form div label {
+  display: block;
+}
+
+form div input {
+  width: 100%;
+  line-height: 2em;
+}
+
+form div:last-child {
+  text-align: center;
+}
+
+form div a {
+  text-decoration: none;
+  padding: 2px 50px;
+}
+
+.contact-us h2 {
+  text-align: center;
+}
+
+/* contact us section style end */
