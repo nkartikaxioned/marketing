@@ -370,7 +370,7 @@ nav ul li a:hover {
 .pagging ul a {
   text-decoration: none;
   padding: 0px 8px;
-  border: 2px solid black;
+  border: 2px solid #fff;
   text-indent: -9999px;
   float: left;
 }
