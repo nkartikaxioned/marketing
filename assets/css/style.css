@@ -357,10 +357,9 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
-
-.marketing .wrapper ul {
+/* .marketing .wrapper ul {
   width: 100%;
-}
+} */
 
 .marketing .wrapper ul li {
   width: 100%;
@@ -369,7 +368,6 @@ nav ul li a:hover {
 .marketing .wrapper ul li img {
   width: 100%;
 }
-
 
 .slider {
   display: flex;
@@ -556,6 +554,10 @@ nav ul li a:hover {
   box-shadow: 0 4px 9px #616161;
 }
 
+.about-us li img {
+  width: 100%;
+}
+
 .about-us h6 {
   font-size: 23px;
   padding: 0 0 15px;
@@ -645,6 +647,7 @@ footer div a[title|="Facebook"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer div a[title|="Instagram"]::before {
@@ -652,6 +655,7 @@ footer div a[title|="Instagram"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer div a[title|="Snapchat"]::before {
@@ -659,6 +663,7 @@ footer div a[title|="Snapchat"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer div a[title|="Pininterest"]::before {
@@ -666,6 +671,7 @@ footer div a[title|="Pininterest"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer div a[title|="Twitter"]::before {
@@ -673,6 +679,7 @@ footer div a[title|="Twitter"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer div a[title|="Linkedin"]::before {
@@ -680,6 +687,7 @@ footer div a[title|="Linkedin"]::before {
   font-family: "fontAwesome";
   text-indent: 0;
   float: left;
+  font-size: 1.5em;
 }
 
 footer ul a {
@@ -688,7 +696,7 @@ footer ul a {
 }
 
 footer ul li {
-  width: 2%;
+  width: 3%;
 }
 
 /* fo0ter section style end */
