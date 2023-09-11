@@ -283,9 +283,11 @@ sub {
 .font-bold { font-weight: bolder; }
 
 .border-bottom{ 
-  border-bottom: 3px solid;
-  border-color: #cdcaca; 
-}
+   border-bottom: 3px solid #cdcaca; 
+   width: 17%;
+   margin: 0 auto;
+  }
+
 .repeat-code{
   font-family: "fontAwesome";
   font-size: 20px;
@@ -374,6 +376,7 @@ nav ul li a:hover {
   border: 2px solid #fff;
   text-indent: -9999px;
   float: left;
+  transition: .2s;
 }
 
 .pagging ul a:hover { background-color: #fff; }
@@ -457,7 +460,8 @@ nav ul li a:hover {
 .structure ul li:last-child { padding: 25px 0 25px; }
 
 .pricing-plans ul li {
-  border: 1px solid #616161;
+  border: .5px solid #616161;
+  border-top: 0;
   width: 100%;
 }
 
@@ -471,6 +475,7 @@ nav ul li a:hover {
   border: 1px solid #4CAF50;
   background: #4CAF50;
   padding: 10px;
+  transition: .2s;
 }
 .structure ul li a:hover{
   color: #4CAF50; 
@@ -514,6 +519,7 @@ nav ul li a:hover {
   text-align: center;
   display: block;
   padding: 10px;
+  transition: .2s;
 }
 
 .about-us div a:hover{
@@ -532,7 +538,7 @@ form div label { display: block; }
 
 form div input {
   width: 99%;
-  line-height: 2em;
+  padding: 10px;
   border: 1.5px solid #BBB;
 }
 
@@ -544,6 +550,7 @@ form div a {
   display: block;
   width: 90%;
   line-height: 2em;
+  transition: .2s;
 }
 
 form div a:hover{
@@ -579,23 +586,28 @@ footer div a[title|="Facebook"]::before {
   float: left;
 }
 
+footer div a[title|="Facebook"]:hover{color: #616161;}
+
 footer div a[title|="Instagram"]::before {
   content: "\f16d";
   text-indent: 0;
   float: left;
 }
+footer div a[title|="Instagram"]:hover{color: #616161;}
 
 footer div a[title|="Snapchat"]::before {
   content: "\f2ad";
   text-indent: 0;
   float: left;
 }
+footer div a[title|="Snapchat"]:hover{ color: #616161;}
 
 footer div a[title|="Pininterest"]::before {
   content: "\f0d2";
   text-indent: 0;
   float: left;
 }
+footer div a[title|="Pininterest"]:hover{ color: #616161;}
 
 footer div a[title|="Twitter"]::before {
   content: "\f099";
@@ -603,11 +615,15 @@ footer div a[title|="Twitter"]::before {
   float: left;
 }
 
+footer div a[title|="Twitter"]:hover{ color: #616161;}
+
 footer div a[title|="Linkedin"]::before {
   content: "\f08c";
   text-indent: 0;
   float: left;
 }
+
+footer div a[title|="Linkedin"]:hover{ color: #616161;}
 
 footer ul a {
   text-indent: -9999px;
@@ -627,6 +643,7 @@ footer ul { padding: 30px 0 20px; }
 .button1:hover{
   color: #000;
   background: #676767;
+  transition: .2s;
 }
 
 footer p { padding: 0 0 30px; }
