@@ -281,7 +281,11 @@ sub {
 }
 
 .font-bold { font-weight: bolder; }
-.border-bottom{border-bottom: 3px solid;}
+
+.border-bottom{ 
+  border-bottom: 3px solid;
+  border-color: #cdcaca; 
+}
 /* common class style end */
 
 /* header style start */
@@ -420,8 +424,6 @@ nav ul li a:hover { color: #ff0000; }
   padding: 15px 0;
   font-size: 23px;
 }
-
-.offer h2 { border-bottom: 3px solid; }
 
 /* offer section style starts */
 /* pricing plans section style start */
