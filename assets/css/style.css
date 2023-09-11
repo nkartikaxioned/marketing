@@ -292,19 +292,22 @@ sub {
 
 header,
 header .wrapper {
-  max-width: 1366px;
+
   width: 100%;
-  margin: 0 auto;
+  
 }
 
 header ul {
   width: 100%;
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
 }
 
 nav { padding: 15px; }
+header ul li {
+  width: 25%;
+  text-align: center;
+}
 
 nav ul li a {
   text-decoration: none;
@@ -312,7 +315,10 @@ nav ul li a {
   padding: 10px;
 }
 
-nav ul li a:hover { color: #ff0000; }
+nav ul li a:hover { 
+  color: #ff0000; 
+  transition: 0.2s;
+}
 
 /* header style end */
 /* marketing section style starts */
@@ -321,6 +327,7 @@ nav ul li a:hover { color: #ff0000; }
   font-size: 42px;
   text-decoration: none;
   color: #ff0000;
+  transition: 0.2s;
 }
 .marketing h1 a {
   font-size: 42px;
@@ -399,7 +406,8 @@ nav ul li a:hover { color: #ff0000; }
   text-indent: 0;
   font-size: 2em;
 }
-
+.left-arrow a:hover{ color: #ff0000; }
+.right-arrow a:hover{ color: #ff0000;}
 /* marketing section style ends */
 
 /* offer section style starts */
