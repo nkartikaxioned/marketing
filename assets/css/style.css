@@ -281,7 +281,7 @@ sub {
 }
 
 .font-bold { font-weight: bolder; }
-
+.border-bottom{border-bottom: 3px solid;}
 /* common class style end */
 
 /* header style start */
@@ -635,5 +635,5 @@ footer ul { padding: 30px 0 20px; }
 
 footer p { padding: 0 0 30px; }
 footer p span { border-bottom: 2px solid black; }
-
+footer p a{ border-bottom: 1px solid;}
 /* fo0ter section style end */
