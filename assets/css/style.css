@@ -283,7 +283,7 @@ sub {
 .font-bold { font-weight: bolder; }
 
 .border-bottom{ 
-   border-bottom: 3px solid #cdcaca; 
+   border-bottom: 5px solid #cdcaca; 
    width: 17%;
    margin: 0 auto;
   }
@@ -502,7 +502,7 @@ nav ul li a:hover {
 
 .about-us ul li {
   width: 32%;
-  box-shadow: 0 4px 9px #616161;
+  box-shadow: 0 4px 9px #b3b3b3;
 }
 
 .about-us li img { width: 100%; }
