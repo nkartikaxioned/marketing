@@ -286,6 +286,10 @@ sub {
   border-bottom: 3px solid;
   border-color: #cdcaca; 
 }
+.repeat-code{
+  font-family: "fontAwesome";
+  font-size: 10px;
+}
 /* common class style end */
 
 /* header style start */
@@ -376,35 +380,33 @@ nav ul li a:hover {
 
 .left-arrow { width: 100%; }
 
-.right-arrow {
-  width: 100%;
-  text-align: right;
-}
+.right-arrow { width: 100%; }
 
 .right-arrow a {
   text-decoration: none;
-  text-indent: -9999px;
   float: right;
+  text-indent:-9999px;
   padding: 5px;
 }
 
 .left-arrow a {
   text-decoration: none;
   float: left;
+  text-indent: -9999px;
   padding: 5px;
 }
 
 .right-arrow a::before {
   content: "\f0a9";
-  font-family: "fontAwesome";
-  font-size: 2em;
+  text-indent: 0;
+  float: right;
 }
 
 .left-arrow a::before {
   content: "\f0a8";
-  font-family: "fontAwesome";
   text-indent: 0;
-  font-size: 2em;
+  float: left;
+
 }
 .left-arrow a:hover{ color: #ff0000; }
 .right-arrow a:hover{ color: #ff0000;}
@@ -569,58 +571,42 @@ footer ul {
   list-style: none;
 }
 
-footer div a[title|="To the top"]::before {
-  content: "\f062";
-  font-family: "fontAwesome";
-
-}
+footer div a[title|="To the top"]::before { content: "\f062"; }
 
 footer div a[title|="Facebook"]::before {
   content: "\f082";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer div a[title|="Instagram"]::before {
   content: "\f16d";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer div a[title|="Snapchat"]::before {
   content: "\f2ad";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer div a[title|="Pininterest"]::before {
   content: "\f0d2";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer div a[title|="Twitter"]::before {
   content: "\f099";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer div a[title|="Linkedin"]::before {
   content: "\f08c";
-  font-family: "fontAwesome";
   text-indent: 0;
   float: left;
-  font-size: 1.5em;
 }
 
 footer ul a {
